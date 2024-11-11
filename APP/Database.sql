@@ -42,7 +42,6 @@ INSERT INTO Reservas (usuario_id, evento_id, cantidad) VALUES
 (1, 2, 3),  -- 
 (1, 3, 1);  -- 
 
-TRUNCATE TABLE eventos;
-DELETE FROM eventos WHERE id = 9;
+
 
 SELECT * FROM Eventos;
